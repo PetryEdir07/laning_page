@@ -1,5 +1,5 @@
 header{
-    background-color: blue;
+    background-color: red;
     height:300px
 }
 main{
@@ -7,6 +7,24 @@ main{
     height: 300px;
 }
 footer{
-    background-color: red;
+    background-color: blue;
     height: 300px;
+}
+#produtos{
+    background-color: whitesmoke;
+    height: 400px;
+} 
+#parceiros{
+    background-color: whitesmoke;
+    height: 400px;
+
+}
+   
+#historia{
+    background-color: whitesmoke;
+    height: 400px;
+}
+#cadastro{
+    background-color: whitesmoke;
+    height: 400px;
 }
