@@ -1,16 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
 header{
-    background-color: blue;
+    background-color: darkblue;
     height: auto;
 }
-main{
-   
-}
-footer{
 
-}
-#jogadores{
-    background-color: blue;
+#pilotos{
+    background-color: darkblue;
     height: 700px;
+    padding-top: 30px;
 } 
 #parceiros{
     background-color: yellow;
@@ -28,5 +33,44 @@ footer{
 }
 #logotipo{
     height: 250px;
+
+}
+.menu{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.9s;
+    padding: 5ṕx;
+}
+.menu a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: darkred;
+    border-radius: 3px;
+}
+
+.menu li{
+    display: inline;
+    padding: 25px;
+}
+.texto_1{
+    background-color: darkred;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.texto_1 p{
+   /*  border: solid red 2px; */
+    text-align: justify;
+}
+.texto_1 :hover{
+    background-color: rgb(114, 20, 20);
+    transition: 0.4;
 
 }
