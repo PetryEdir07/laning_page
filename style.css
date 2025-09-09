@@ -14,11 +14,11 @@ header{
 
 #pilotos{
     background-color: darkblue;
-    height: 700px;
+    height: 2100px;
     padding-top: 30px;
 } 
-#parceiros{
-    background-color: yellow;
+#produtos{
+    background-color: darkblue;
     height: 700px;
 
 }
@@ -59,18 +59,45 @@ header{
     display: inline;
     padding: 25px;
 }
-.texto_1{
+.max{
     background-color: darkred;
     margin: 0 50px 0 50px;
     padding: 20px;
     border-radius: 15px;
 }
-.texto_1 p{
+.max p{
    /*  border: solid red 2px; */
     text-align: justify;
 }
-.texto_1 :hover{
+.max :hover{
     background-color: rgb(114, 20, 20);
     transition: 0.4;
 
+}
+.yuki{
+    background-color: darkred;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.yuki p{
+    /*border: solid red 2px;*/
+    text-align: justify;
+}
+.yuki :hover{
+    background-color: brown;
+    transition: 0.4;
+}
+.card{
+    /*border: solid 2px red;*/
+    width: 300px;
+    height: 500px;
+}
+.imagemcard{
+    width: 280px;
+}
+.preco{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
 }
